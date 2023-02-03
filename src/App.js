@@ -23,7 +23,7 @@ function App() {
 
   var submitText = document.getElementById("submitText");
 
-  if(submitText){
+  if (submitText) {
     submitText.addEventListener("keypress", function (event) {
       if (event.key === "Enter") {
         event.preventDefault();
@@ -31,7 +31,7 @@ function App() {
       }
     });
   }
-  
+
   return (
     <div className="app">
       <h1>Moviephilic</h1>
